@@ -1,15 +1,15 @@
 /* ===== Lewis Boxing Gym — styles ===== */
 
 :root {
-  --black: #0a0a0a;
-  --near-black: #121212;
-  --charcoal: #1a1a1a;
-  --charcoal-2: #232323;
-  --white: #f5f3ee;
-  --off-white: #cfccc4;
+  --black: #0c1b34;
+  --near-black: #12274a;
+  --charcoal: #1a3660;
+  --charcoal-2: #24447a;
+  --white: #f7f8fa;
+  --off-white: #c7d2e3;
   --red: #c8102e;
   --red-dark: #8f0b21;
-  --gold: #cba135;
+  --gold: #5b9bf0;
   --font-display: 'Anton', 'Oswald', sans-serif;
   --font-body: 'Oswald', sans-serif;
   --container: 1180px;
@@ -73,7 +73,7 @@ p { margin: 0 0 16px; color: var(--off-white); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(10, 10, 10, 0.92);
+  background: rgba(12, 27, 52, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--charcoal-2);
 }
@@ -171,7 +171,7 @@ p { margin: 0 0 16px; color: var(--off-white); }
 /* ===== Placeholder media blocks ===== */
 .placeholder-media {
   background: repeating-linear-gradient(135deg, var(--charcoal), var(--charcoal) 12px, var(--near-black) 12px, var(--near-black) 24px);
-  border: 1px dashed #3a3a3a;
+  border: 1px dashed #3a4f78;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,14 +184,14 @@ p { margin: 0 0 16px; color: var(--off-white); }
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  color: #6b6b6b;
+  color: #6f84a8;
   font-size: 0.75rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
   padding: 20px;
 }
-.glove-icon { width: 42px; height: 42px; color: #4a4a4a; }
+.glove-icon { width: 42px; height: 42px; color: #4c6690; }
 
 /* ===== Real photo containers ===== */
 .hero-bg, .about-media, .coach-media, .gallery-item {
@@ -217,7 +217,7 @@ p { margin: 0 0 16px; color: var(--off-white); }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0.75) 55%, rgba(10,10,10,0.96) 100%);
+  background: linear-gradient(180deg, rgba(12,27,52,0.55) 0%, rgba(12,27,52,0.75) 55%, rgba(12,27,52,0.96) 100%);
 }
 .hero-content { position: relative; z-index: 2; padding-top: 60px; padding-bottom: 60px; }
 
@@ -391,7 +391,7 @@ p { margin: 0 0 16px; color: var(--off-white); }
   gap: 8px;
   text-align: center;
 }
-.footer-inner p { color: #7a7a7a; font-size: 0.85rem; margin: 0; }
+.footer-inner p { color: #7e93b8; font-size: 0.85rem; margin: 0; }
 .copyright { font-size: 0.75rem; }
 
 /* ===== Responsive ===== */
